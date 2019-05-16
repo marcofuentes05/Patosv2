@@ -8,22 +8,28 @@ class Persona(GraphObject):
 	__primarykey__ = "nombre"
 
 	nombre = Property()
-	edad = Property()
-	nacionalidad = Property()
 
-	amigos = Related("Persona")
+	amigos = Related("Persona","amigos")
+	likes = Related ("Atributo","likes")
+	yaVisito = Related ("Ciudad","visitado")
 
 class Ciudad (GraphObject):
 	__primarykey__ = "nombre"
 
 	nombre = Property()
-	clima = Property()
-
+	foto = Property()
+	distancia = Property()
+	contador = 0
 
 class Atributo(GraphObject):
 	__primarykey__ = "cualidad"
 
 	cualidad = Property()
 	#Lo pongo dos veces todo para que el recorrido sea bidireccional
-	legusta = Related("Persona","LE_GUSTA")
 	es = Related("Ciudad","ES")
+
+class Pais (GraphObject):
+	__primarykey__ = "nombre"
+
+	nombre = Property()
+	distancia = Property()

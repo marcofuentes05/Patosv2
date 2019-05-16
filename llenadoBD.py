@@ -13,6 +13,27 @@ from Clases import *
 import pprint
 graph = Graph (password = "stitch")
 
+#def isOnDatabase(personita)
+
+jose = Persona()
+jose.nombre = "jose"
+jose.edad = 19
+jose.nacionalidad = "Guatemalteco"
+
+caro = Atributo()
+caro.cualidad = "caro"
+
+guatemala = Ciudad()
+guatemala.nombre = "Guatemala"
+guatemala.clima = "Calido"
+
+caro.legusta.add(jose)
+caro.es.add(guatemala)
+
+graph.push(jose)
+graph.push(caro)
+graph.push(guatemala)
+
 def agregarRelacion (n1, n2,relacion):
 	d = graph.run("MATCH (n:Persona) WHERE n.nombre = '"+n1+"' RETURN n").data()
 	if (len(d)>0):
@@ -20,70 +41,13 @@ def agregarRelacion (n1, n2,relacion):
 		if (len(d1)>0):
 			graph.run("MATCH (n:Persona),(m:Persona) WHERE n.nombre = '"+n1+"' AND m.nombre = '"+n2+"' CREATE (n)-[r:"+relacion+"]->(m) CREATE (m) -[l:"+relacion+"]-> (n) ")
 			return True
-		else:
-			return False
-	else:
 		return False
+	return False
 
-def isInGraphPersona(nombre):
-	d = graph.run("MATCH (n:Persona) WHERE n.nombre = '"+nombre+"' RETURN n").data()
-	if (len(d)>0):
-		return True
-	else:
-		return False
-def isInGraphCiudad(nombre):
-	d = graph.run("MATCH (n:Ciudad) WHERE n.nombre = '"+nombre+"' RETURN n").data()
-	if (len(d)>0):
-		return True
-	else:
-		return False
-def isInGraphAtributo(c):
-	d = graph.run("MATCH (n:Atributo) WHERE n.cualidad = '"+c+"' RETURN n").data()
-	if (len(d)>0):
-		return True
-	else:
-		return False
-
-menu = """
-	Menu
-		1. Agregar Nodo de persona
-		2. Agregar Nodo de Ciudad
-		3. Agregar Nodo de Atributo
-		4. Agregar Relación
-
-"""
-
-res = input(menu)
-
-
-if (res == "1"):
-	nombre = input("Ingresa el nombre de la persona")
-	if (isInGraphPersona(nombre) == False):
-		nacionalidad = input ("Ingresa la nacionalidad")
-		edad = input ("Ingresa la edad")
-		graph.run ("CREATE (n:Persona {nombre: '"+nombre+"', nacionalidad: '"+nacionalidad+"', edad :	 "+edad	+"})")
-	else:
-		print("Ese elemento ya esta en el grafo :D ")
-elif (res == "2"):
-	nombre = input("Ingresa el nombre de la ciudad")
-	if (isInGraphCiudad(nombre) == False):
-		graph.run ("CREATE (n:Ciudad {nombre: '"+nombre+"'})")
-	else:
-		print("Ese elemento ya esta en el grafo :D ")
-elif (res == "3"):
-	nombre = input("Ingresa el nombre del Atributo")
-	if (isInGraphAtributo(nombre) == False):
-		graph.run ("CREATE (n:Atributo {cualidad: '"+nombre+"'})")
-	else:
-		print("Ese elemento ya esta en el grafo :D ")
-elif (res == "4"):
-	n1 = input("Ingresa el nombre de la primera persona")
-	n2 = input ("Ingresa el nombre de la segunda persona")
-	relacion = input ("Ingresa el tipo de relacion")
-	agregarRelacion(n1,n2,relacion)
-else:
-	print ("Ese no es un valor permitido")
-
+#nombre = input("Ingresa el nombre de la persona")
+#nacionalidad = input ("Ingresa la nacionalidad")
+#edad = input ("Ingresa la edad")
+#graph.run ("CREATE (n:Persona {nombre: '"+nombre+"', nacionalidad: '"+nacionalidad+"', edad :	 "+edad	+"})")
 
 #/*Agrega un nodo persona a la BD*/
 #data = graph.run("MATCH (n:Persona) return n").data() #Retorna una lista de diccionarios con los elementos del grafo
