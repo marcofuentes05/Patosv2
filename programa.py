@@ -21,7 +21,7 @@ persona.nombre = nombre
 graph.pull(persona)
 
 res =""
-diccionario = {"prueba",1}
+diccionario = {"prueba":1}
 
 for amigo in persona.amigos:
     for c in amigo.yaVisito:
@@ -34,16 +34,19 @@ for like in persona.likes:
         else:
             diccionario.update(c.nombre,1)
 
-lista = diccionario.keys
+lista = list(diccionario.keys())
+print(lista)
 temp = 0
+contador = 0
 for i in lista:
     if diccionario[i] > temp:
-        temp = diccionario[i]
+        stra = lista[contador]
+        contador+=contador
 
 
-print("Tu ciudad ideal es: "+temp)
+print("Tu ciudad ideal es: "+stra)
 
 #para ordenar el DICCIONARIO
-ordenado = sorted(diccionario.items(), key = operator.igemgetter(1))
+ordenado = sorted(diccionario.items(), key = operator.itemgetter(1))
 pp = pprint.PrettyPrinter(indent=4)
 pp.pprint(ordenado)
