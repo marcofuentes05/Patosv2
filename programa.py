@@ -24,7 +24,7 @@ res =""
 diccionario = {"prueba",1}
 
 for amigo in persona.amigos:
-    for c = amigo.yaVisito:
+    for c in amigo.yaVisito:
         res+= "Tu amigo "+ amigo.nombre + " estuvo en "+c.nombre+" /n"
 
 for like in persona.likes:
