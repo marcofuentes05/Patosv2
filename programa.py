@@ -13,7 +13,7 @@ import operator
 
 graph = Graph (password = "patos123")
 
-nombre = input("Hola! Quien eres?")
+nombre = input("Hola! Quien eres?\n")
 
 persona = Persona()
 persona.nombre = nombre
@@ -29,11 +29,11 @@ for amigo in persona.amigos:
 
 for like in persona.likes:
     for c in like.es:
-        if c.nombre in diccionario.keys:
+        if c.nombre in list(diccionario.keys()):
             diccionario[c.nombre] =+ 1
         else:
-            diccionario.update(c.nombre,1)
-
+        	temp = {c.nombre:1}
+        	diccionario.update(temp)
 lista = list(diccionario.keys())
 print(lista)
 temp = 0
@@ -42,10 +42,7 @@ for i in lista:
     if diccionario[i] > temp:
         stra = lista[contador]
         contador+=contador
-
-
 print("Tu ciudad ideal es: "+stra)
-
 #para ordenar el DICCIONARIO
 ordenado = sorted(diccionario.items(), key = operator.itemgetter(1))
 pp = pprint.PrettyPrinter(indent=4)
