@@ -12,7 +12,7 @@ class Persona(GraphObject):
 	amigos = Related("Persona","amigos")
 	likes = Related ("Atributo","likes")
 	yaVisito = Related ("Ciudad","visitado")
-	yVisitoP = Related ("Pais","visitado") 
+	yaVisitoP = Related ("Pais","visitado")
 
 
 class Ciudad (GraphObject):
@@ -45,4 +45,3 @@ class Pais (GraphObject):
 	def agregarC(self,numero):
 		n = int(numero)
 		self.contador = self.contador + n
-
