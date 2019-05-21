@@ -3206,7 +3206,7 @@ create (eb)-[:es]->(relajante),
 (ew)-[:es]->(relajante),
 (ex)-[:es]->(relajante),
 (fd)-[:es]->(relajante),
-(fj)-[:es]->(relajante),
+(fj)-[:es]->(relajante)
 
 create (ea)-[:es]->(actividadesCulturales),
 (eb)-[:es]->(actividadesCulturales),
@@ -3221,178 +3221,73 @@ create (ea)-[:es]->(actividadesCulturales),
 (eu)-[:es]->(actividadesCulturales),
 (ew)-[:es]->(actividadesCulturales),
 (ex)-[:es]->(actividadesCulturales),
-(fl)-[:es]->(actividadesCulturales),
+(fl)-[:es]->(actividadesCulturales)
 
-create (eb)-[:es]->(comidaPicante),
-(ec)-[:es]->(comidaPicante),
-(ed)-[:es]->(comidaPicante),
-(ee)-[:es]->(comidaPicante),
-(ef)-[:es]->(comidaPicante),
-(eg)-[:es]->(comidaPicante),
-(eh)-[:es]->(comidaPicante),
+create(eh)-[:es]->(comidaPicante),
 (ei)-[:es]->(comidaPicante),
-(ek)-[:es]->(comidaPicante),
-(el)-[:es]->(comidaPicante),
-(em)-[:es]->(comidaPicante),
-(en)-[:es]->(comidaPicante),
-(eo)-[:es]->(comidaPicante),
 (ep)-[:es]->(comidaPicante),
-(eq)-[:es]->(comidaPicante),
 (er)-[:es]->(comidaPicante),
-(es)-[:es]->(comidaPicante),
-(et)-[:es]->(comidaPicante),
 (eu)-[:es]->(comidaPicante),
 (ev)-[:es]->(comidaPicante),
 (ew)-[:es]->(comidaPicante),
-(ex)-[:es]->(comidaPicante),
-(ey)-[:es]->(comidaPicante),
-(ez)-[:es]->(comidaPicante),
 (fa)-[:es]->(comidaPicante),
 (fb)-[:es]->(comidaPicante),
-(fc)-[:es]->(comidaPicante),
-(fd)-[:es]->(comidaPicante),
-(fe)-[:es]->(comidaPicante),
 (ff)-[:es]->(comidaPicante),
-(fg)-[:es]->(comidaPicante),
 (fh)-[:es]->(comidaPicante),
 (fi)-[:es]->(comidaPicante),
-(fj)-[:es]->(comidaPicante),
 (fk)-[:es]->(comidaPicante),
-(fl)-[:es]->(comidaPicante),
-(fm)-[:es]->(comidaPicante),
 (fn)-[:es]->(comidaPicante)
 
-create (ea)-[:es]->(calor),
-(eb)-[:es]->(calor),
-(ec)-[:es]->(calor),
-(ed)-[:es]->(calor),
-(ee)-[:es]->(calor),
-(ef)-[:es]->(calor),
-(eg)-[:es]->(calor),
-(eh)-[:es]->(calor),
-(ei)-[:es]->(calor),
-(ej)-[:es]->(calor),
-(ek)-[:es]->(calor),
-(el)-[:es]->(calor),
-(em)-[:es]->(calor),
-(en)-[:es]->(calor),
-(eo)-[:es]->(calor),
-(ep)-[:es]->(calor),
-(eq)-[:es]->(calor),
-(er)-[:es]->(calor),
-(es)-[:es]->(calor),
-(et)-[:es]->(calor),
-(eu)-[:es]->(calor),
-(ev)-[:es]->(calor),
-(ew)-[:es]->(calor),
-(ex)-[:es]->(calor),
-(ey)-[:es]->(calor),
-(ez)-[:es]->(calor),
-(fa)-[:es]->(calor),
-(fb)-[:es]->(calor),
-(fc)-[:es]->(calor),
-(fd)-[:es]->(calor),
-(fe)-[:es]->(calor),
-(ff)-[:es]->(calor),
-(fg)-[:es]->(calor),
-(fh)-[:es]->(calor),
-(fi)-[:es]->(calor),
-(fj)-[:es]->(calor),
-(fk)-[:es]->(calor),
-(fl)-[:es]->(calor),
-(fm)-[:es]->(calor),
-(fn)-[:es]->(calor)
 
-create (ea)-[:es]->(calor),
-(eb)-[:es]->(calor),
-(ec)-[:es]->(calor),
-(ed)-[:es]->(calor),
-(ee)-[:es]->(calor),
-(ef)-[:es]->(calor),
-(eg)-[:es]->(calor),
-(eh)-[:es]->(calor),
-(ei)-[:es]->(calor),
-(ej)-[:es]->(calor),
-(ek)-[:es]->(calor),
-(el)-[:es]->(calor),
-(em)-[:es]->(calor),
-(en)-[:es]->(calor),
-(eo)-[:es]->(calor),
-(ep)-[:es]->(calor),
-(eq)-[:es]->(calor),
-(er)-[:es]->(calor),
-(es)-[:es]->(calor),
-(et)-[:es]->(calor),
-(eu)-[:es]->(calor),
-(ev)-[:es]->(calor),
-(ew)-[:es]->(calor),
-(ex)-[:es]->(calor),
-(ey)-[:es]->(calor),
-(ez)-[:es]->(calor),
-(fa)-[:es]->(calor),
-(fb)-[:es]->(calor),
-(fc)-[:es]->(calor),
-(fd)-[:es]->(calor),
-(fe)-[:es]->(calor),
-(ff)-[:es]->(calor),
-(fg)-[:es]->(calor),
-(fh)-[:es]->(calor),
-(fi)-[:es]->(calor),
-(fj)-[:es]->(calor),
-(fk)-[:es]->(calor),
-(fl)-[:es]->(calor),
-(fm)-[:es]->(calor),
-(fn)-[:es]->(calor)
-
-create (eh)-[:es]->(mariscos),-
-(ek)-[:es]->(mariscos),-
-(en)-[:es]->(mariscos),-
-(es)-[:es]->(mariscos),-
-(eu)-[:es]->(mariscos),-
-(ew)-[:es]->(mariscos),-
-(fk)-[:es]->(mariscos),-
-(fm)-[:es]->(mariscos),-
+create (eh)-[:es]->(mariscos),
+(ek)-[:es]->(mariscos),
+(en)-[:es]->(mariscos),
+(es)-[:es]->(mariscos),
+(eu)-[:es]->(mariscos),
+(ew)-[:es]->(mariscos),
+(fk)-[:es]->(mariscos),
+(fm)-[:es]->(mariscos)
 
 
 
-create (ei)-[:es]->(comidaCasera),-
-(ek)-[:es]->(comidaCasera),-
-(el)-[:es]->(comidaCasera),-
-(em)-[:es]->(comidaCasera),-
-(en)-[:es]->(comidaCasera),-
-(eq)-[:es]->(comidaCasera),-
-(es)-[:es]->(comidaCasera),-
+create (ei)-[:es]->(comidaCasera),
+(ek)-[:es]->(comidaCasera),
+(el)-[:es]->(comidaCasera),
+(em)-[:es]->(comidaCasera),
+(en)-[:es]->(comidaCasera),
+(eq)-[:es]->(comidaCasera),
+(es)-[:es]->(comidaCasera),
 (fe)-[:es]->(comidaCasera)
 
 
-create (ea)-[:es]->(comidaRapida),-
+create (ea)-[:es]->(comidaRapida),
 @(eb)-[:es]->(comidaRapida),
-(ec)-[:es]->(comidaRapida),-
-(ef)-[:es]->(comidaRapida),-
-(eg)-[:es]->(comidaRapida),-
-(ei)-[:es]->(comidaRapida),-
-(ek)-[:es]->(comidaRapida),-
-(el)-[:es]->(comidaRapida),-
-(eq)-[:es]->(comidaRapida),-
-(es)-[:es]->(comidaRapida),-
+(ec)-[:es]->(comidaRapida),
+(ef)-[:es]->(comidaRapida),
+(eg)-[:es]->(comidaRapida),
+(ei)-[:es]->(comidaRapida),
+(ek)-[:es]->(comidaRapida),
+(el)-[:es]->(comidaRapida),
+(eq)-[:es]->(comidaRapida),
+(es)-[:es]->(comidaRapida),
 (ex)-[:es]->(comidaRapida)
 
 
-create (eb)-[:es]->(carne),-
-(ec)-[:es]->(carne),-
-(ef)-[:es]->(carne),-
-(eg)-[:es]->(carne),-
-(eh)-[:es]->(carne),-
-(el)-[:es]->(carne),-
-(em)-[:es]->(carne),-
-(en)-[:es]->(carne),-
-(ep)-[:es]->(carne),-
-(eq)-[:es]->(carne),-
-(et)-[:es]->(carne),-
-(ev)-[:es]->(carne),-
-(ew)-[:es]->(carne),-
-(ex)-[:es]->(carne),-
-(fc)-[:es]->(carne),-
+create (eb)-[:es]->(carne),
+(ec)-[:es]->(carne),
+(ef)-[:es]->(carne),
+(eg)-[:es]->(carne),
+(eh)-[:es]->(carne),
+(el)-[:es]->(carne),
+(em)-[:es]->(carne),
+(en)-[:es]->(carne),
+(ep)-[:es]->(carne),
+(eq)-[:es]->(carne),
+(et)-[:es]->(carne),
+(ev)-[:es]->(carne),
+(ew)-[:es]->(carne),
+(ex)-[:es]->(carne),
+(fc)-[:es]->(carne),
 (fi)-[:es]->(carne)
 
 create (ea)-[:es]->(playa),
@@ -3432,49 +3327,49 @@ create (ea)-[:es]->(playa),
 (fn)-[:es]->(playa)
 
 
-create (ec)-[:es]->(visa),-
-(eg)-[:es]->(visa),-
-(ei)-[:es]->(visa),-
-(ej)-[:es]->(visa),-
-(el)-[:es]->(visa),-
-(em)-[:es]->(visa),-
-(ez)-[:es]->(visa),-
-(fb)-[:es]->(visa),-
-(fl)-[:es]->(visa),-
-(fm)-[:es]->(visa),-
+create (ec)-[:es]->(visa),
+(eg)-[:es]->(visa),
+(ei)-[:es]->(visa),
+(ej)-[:es]->(visa),
+(el)-[:es]->(visa),
+(em)-[:es]->(visa),
+(ez)-[:es]->(visa),
+(fb)-[:es]->(visa),
+(fl)-[:es]->(visa),
+(fm)-[:es]->(visa),
 (fn)-[:es]->(visa)
 
 
-create (eb)-[:es]->(compras),-
-(ef)-[:es]->(compras),-
-(ei)-[:es]->(compras),-
-(ek)-[:es]->(compras),-
-(el)-[:es]->(compras),-
-(eq)-[:es]->(compras),-
-(fe)-[:es]->(compras),-
+create (eb)-[:es]->(compras),
+(ef)-[:es]->(compras),
+(ei)-[:es]->(compras),
+(ek)-[:es]->(compras),
+(el)-[:es]->(compras),
+(eq)-[:es]->(compras),
+(fe)-[:es]->(compras),
 (fj)-[:es]->(compras)
 
-create (ek)-[:es]->(comidaDiversa),-
-(el)-[:es]->(comidaDiversa),-
-(em)-[:es]->(comidaDiversa),-
-(en)-[:es]->(comidaDiversa),-
-(eq)-[:es]->(comidaDiversa),-
-(es)-[:es]->(comidaDiversa),-
-(eu)-[:es]->(comidaDiversa),-
-(fe)-[:es]->(comidaDiversa),-
+create (ek)-[:es]->(comidaDiversa),
+(el)-[:es]->(comidaDiversa),
+(em)-[:es]->(comidaDiversa),
+(en)-[:es]->(comidaDiversa),
+(eq)-[:es]->(comidaDiversa),
+(es)-[:es]->(comidaDiversa),
+(eu)-[:es]->(comidaDiversa),
+(fe)-[:es]->(comidaDiversa),
 (fk)-[:es]->(comidaDiversa)
 
 
-create (ea)-[:es]->(vidaNocturna),-
-(eb)-[:es]->(vidaNocturna),-
-(ef)-[:es]->(vidaNocturna),-
-(eg)-[:es]->(vidaNocturna),-
-(ek)-[:es]->(vidaNocturna),-
-(el)-[:es]->(vidaNocturna),-
-(eq)-[:es]->(vidaNocturna),-
-(es)-[:es]->(vidaNocturna),-
-(ex)-[:es]->(vidaNocturna),-
-(fb)-[:es]->(vidaNocturna),-
+create (ea)-[:es]->(vidaNocturna),
+(eb)-[:es]->(vidaNocturna),
+(ef)-[:es]->(vidaNocturna),
+(eg)-[:es]->(vidaNocturna),
+(ek)-[:es]->(vidaNocturna),
+(el)-[:es]->(vidaNocturna),
+(eq)-[:es]->(vidaNocturna),
+(es)-[:es]->(vidaNocturna),
+(ex)-[:es]->(vidaNocturna),
+(fb)-[:es]->(vidaNocturna),
 (fe)-[:es]->(vidaNocturna)
 
 create (ea)-[:es]->(crucero),
@@ -3514,16 +3409,16 @@ create (ea)-[:es]->(crucero),
 (fn)-[:es]->(crucero)
 
 
-create (ea)-[:es]->(parquesTematicos),-
-(ei)-[:es]->(parquesTematicos),-
-(ek)-[:es]->(parquesTematicos),-
-(el)-[:es]->(parquesTematicos),-
-(em)-[:es]->(parquesTematicos),-
-(eq)-[:es]->(parquesTematicos),-
-(es)-[:es]->(parquesTematicos),-
-(ex)-[:es]->(parquesTematicos),-
-(fc)-[:es]->(parquesTematicos),-
-(fj)-[:es]->(parquesTematicos),-
+create (ea)-[:es]->(parquesTematicos),
+(ei)-[:es]->(parquesTematicos),
+(ek)-[:es]->(parquesTematicos),
+(el)-[:es]->(parquesTematicos),
+(em)-[:es]->(parquesTematicos),
+(eq)-[:es]->(parquesTematicos),
+(es)-[:es]->(parquesTematicos),
+(ex)-[:es]->(parquesTematicos),
+(fc)-[:es]->(parquesTematicos),
+(fj)-[:es]->(parquesTematicos),
 (fk)-[:es]->(parquesTematicos)
 
 create (ea)-[:es]->(museos),
