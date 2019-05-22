@@ -1335,12 +1335,12 @@ create (ga:Ciudad{nombre:"Berlin"}),
 (in: Ciudad {nombre:"Bathsheba"}),
 (io: Ciudad {nombre:"Nassau"}),
 (ip: Ciudad {nombre:"Freeport"}),
-(iq: Ciudad {nombre:"Marsh Harbour"})
-(ir: Ciudad {nombre:"Venecia"})
-(is: Ciudad {nombre:"Palermo"})
-(it: Ciudad {nombre:"Verona"})
-(iu: Ciudad {nombre:"Bolonia"})
-(iv: Ciudad {nombre:"Mesina"})
+(iq: Ciudad {nombre:"Marsh Harbour"}),
+(ir: Ciudad {nombre:"Venecia"}),
+(is: Ciudad {nombre:"Palermo"}),
+(it: Ciudad {nombre:"Verona"}),
+(iu: Ciudad {nombre:"Bolonia"}),
+(iv: Ciudad {nombre:"Mesina"}),
 (ix: Ciudad {nombre:"Pompeya"})
 
 
@@ -1780,8 +1780,7 @@ create (gk)-[:es]->(familiar),
 (cu)-[:es]->(familiar),
 (cv)-[:es]->(familiar),
 (cx)-[:es]->(familiar),
-(cz)-[:es]->(familiar)
-
+(cz)-[:es]->(familiar),
 (dg)-[:es]->(familiar),
 (di)-[:es]->(familiar),
 (dj)-[:es]->(familiar),
@@ -1815,8 +1814,7 @@ create (gk)-[:es]->(familiar),
 (it)-[:es]->(familiar),
 (iu)-[:es]->(familiar),
 (iv)-[:es]->(familiar),
-(ix)-[:es]->(familiar),
-
+(ix)-[:es]->(familiar)
 
 create (gj)-[:es]->(pareja),
 (gl)-[:es]->(pareja),
@@ -1867,8 +1865,7 @@ create (gj)-[:es]->(pareja),
 (db)-[:es]->(pareja),
 (dc)-[:es]->(pareja),
 (dd)-[:es]->(pareja),
-(df)-[:es]->(pareja)
-
+(df)-[:es]->(pareja),
 (dg)-[:es]->(pareja),
 (dh)-[:es]->(pareja),
 (dj)-[:es]->(pareja),
@@ -1898,8 +1895,7 @@ create (gj)-[:es]->(pareja),
 (it)-[:es]->(pareja),
 (iu)-[:es]->(pareja),
 (iv)-[:es]->(pareja),
-(ix)-[:es]->(pareja),
-
+(ix)-[:es]->(pareja)
 
 create (gk)-[:es]->(individual),
 (gm)-[:es]->(individual),
@@ -1947,8 +1943,7 @@ create (gk)-[:es]->(individual),
 (cn)-[:es]->(individual),
 (co)-[:es]->(individual),
 (cv)-[:es]->(individual),
-(cx)-[:es]->(individual)
-
+(cx)-[:es]->(individual),
 (dg)-[:es]->(individual),
 (dh)-[:es]->(individual),
 (di)-[:es]->(individual),
@@ -1974,8 +1969,7 @@ create (gk)-[:es]->(individual),
 (it)-[:es]->(individual),
 (iu)-[:es]->(individual),
 (iv)-[:es]->(individual),
-(ix)-[:es]->(individual),
-
+(ix)-[:es]->(individual)
 
 create (gj)-[:es]->(religioso),
 (gl)-[:es]->(religioso),
@@ -2053,8 +2047,7 @@ create (gj)-[:es]->(religioso),
 (da)-[:es]->(religioso),
 (db)-[:es]->(religioso),
 (de)-[:es]->(religioso),
-(df)-[:es]->(religioso)
-
+(df)-[:es]->(religioso),
 (dg)-[:es]->(religioso),
 (dh)-[:es]->(religioso),
 (di)-[:es]->(religioso),
@@ -2097,8 +2090,7 @@ create (gj)-[:es]->(religioso),
 (it)-[:es]->(religioso),
 (iu)-[:es]->(religioso),
 (iv)-[:es]->(religioso),
-(ix)-[:es]->(religioso),
-
+(ix)-[:es]->(religioso)
 
 create (gj)-[:es]->(cultural),
 (gk)-[:es]->(cultural),
@@ -2189,8 +2181,7 @@ create (gj)-[:es]->(cultural),
 (dc)-[:es]->(cultural),
 (dd)-[:es]->(cultural),
 (de)-[:es]->(cultural),
-(df)-[:es]->(cultural)
-
+(df)-[:es]->(cultural),
 (dg)-[:es]->(cultural),
 (dh)-[:es]->(cultural),
 (di)-[:es]->(cultural),
@@ -2228,13 +2219,12 @@ create (gj)-[:es]->(cultural),
 (io)-[:es]->(cultural),
 (ip)-[:es]->(cultural),
 (iq)-[:es]->(cultural),
-(ir)-[:es]->(religioso),
-(is)-[:es]->(religioso),
-(it)-[:es]->(religioso),
-(iu)-[:es]->(religioso),
-(iv)-[:es]->(religioso),
-(ix)-[:es]->(religioso),
-
+(ir)-[:es]->(cultural),
+(is)-[:es]->(cultural),
+(it)-[:es]->(cultural),
+(iu)-[:es]->(cultural),
+(iv)-[:es]->(cultural),
+(ix)-[:es]->(cultural)
 
 create (gj)-[:es]->(amigos),
 (gk)-[:es]->(amigos),
@@ -2295,8 +2285,7 @@ create (gj)-[:es]->(amigos),
 (cx)-[:es]->(amigos),
 (cz)-[:es]->(amigos),
 (dc)-[:es]->(amigos),
-(df)-[:es]->(amigos)
-
+(df)-[:es]->(amigos),
 (dg)-[:es]->(amigos),
 (dh)-[:es]->(amigos),
 (di)-[:es]->(amigos),
@@ -2326,8 +2315,7 @@ create (gj)-[:es]->(amigos),
 (it)-[:es]->(amigos),
 (iu)-[:es]->(amigos),
 (iv)-[:es]->(amigos),
-(ix)-[:es]->(amigos),
-
+(ix)-[:es]->(amigos)
 
 create (gi)-[:es]->(actividadesDeportivas),
 (gj)-[:es]->(actividadesDeportivas),
@@ -2382,8 +2370,7 @@ create (gi)-[:es]->(actividadesDeportivas),
 (cz)-[:es]->(actividadesDeportivas),
 (da)-[:es]->(actividadesDeportivas),
 (db)-[:es]->(actividadesDeportivas),
-(df)-[:es]->(actividadesDeportivas)
-
+(df)-[:es]->(actividadesDeportivas),
 (dg)-[:es]->(actividadesDeportivas),
 (dh)-[:es]->(actividadesDeportivas),
 (di)-[:es]->(actividadesDeportivas),
@@ -2426,8 +2413,7 @@ create (gi)-[:es]->(actividadesDeportivas),
 (it)-[:es]->(actividadesDeportivas),
 (iu)-[:es]->(actividadesDeportivas),
 (iv)-[:es]->(actividadesDeportivas),
-(ix)-[:es]->(actividadesDeportivas),
-
+(ix)-[:es]->(actividadesDeportivas)
 
 create (gi)-[:es]->(caro),
 (gj)-[:es]->(caro),
@@ -2527,8 +2513,7 @@ create (gi)-[:es]->(caro),
 (dc)-[:es]->(caro),
 (dd)-[:es]->(barato),
 (de)-[:es]->(barato),
-(df)-[:es]->(barato)
-
+(df)-[:es]->(barato),
 (dg)-[:es]->(caro),
 (dh)-[:es]->(caro),
 (di)-[:es]->(caro),
@@ -2571,8 +2556,7 @@ create (gi)-[:es]->(caro),
 (it)-[:es]->(barato),
 (iu)-[:es]->(barato),
 (iv)-[:es]->(barato),
-(ix)-[:es]->(barato),
-
+(ix)-[:es]->(barato)
 
 create (gi)-[:es]->(relajante),
 (gj)-[:es]->(relajante),
@@ -2640,8 +2624,7 @@ create (gi)-[:es]->(relajante),
 (cx)-[:es]->(relajante),
 (cy)-[:es]->(relajante),
 (dc)-[:es]->(relajante),
-(dd)-[:es]->(relajante)
-
+(dd)-[:es]->(relajante),
 (dl)-[:es]->(relajante),
 (dm)-[:es]->(relajante),
 (dn)-[:es]->(relajante),
@@ -2668,8 +2651,7 @@ create (gi)-[:es]->(relajante),
 (it)-[:es]->(relajante),
 (iu)-[:es]->(relajante),
 (iv)-[:es]->(relajante),
-(ix)-[:es]->(relajante),
-
+(ix)-[:es]->(relajante)
 
 create (gj)-[:es]->(actividadesCulturales),
 (gk)-[:es]->(actividadesCulturales),
@@ -2760,8 +2742,7 @@ create (gj)-[:es]->(actividadesCulturales),
 (dc)-[:es]->(actividadesCulturales),
 (dd)-[:es]->(actividadesCulturales),
 (de)-[:es]->(actividadesCulturales),
-(df)-[:es]->(actividadesCulturales)
-
+(df)-[:es]->(actividadesCulturales),
 (dg)-[:es]->(actividadesCulturales),
 (dh)-[:es]->(actividadesCulturales),
 (di)-[:es]->(actividadesCulturales),
@@ -2791,8 +2772,7 @@ create (gj)-[:es]->(actividadesCulturales),
 (it)-[:es]->(actividadesCulturales),
 (iu)-[:es]->(actividadesCulturales),
 (iv)-[:es]->(actividadesCulturales),
-(ix)-[:es]->(actividadesCulturales),
-
+(ix)-[:es]->(actividadesCulturales)
 
 create (gj)-[:es]->(comidaPicante),
 (gm)-[:es]->(comidaPicante),
@@ -2863,8 +2843,7 @@ create (gj)-[:es]->(comidaPicante),
 (da)-[:es]->(comidaPicante),
 (db)-[:es]->(comidaPicante),
 (dc)-[:es]->(comidaPicante),
-(dd)-[:es]->(comidaPicante)
-
+(dd)-[:es]->(comidaPicante),
 (dg)-[:es]->(comidaPicante),
 (dh)-[:es]->(comidaPicante),
 (di)-[:es]->(comidaPicante),
@@ -2888,8 +2867,7 @@ create (gj)-[:es]->(comidaPicante),
 (it)-[:es]->(comidaPicante),
 (iu)-[:es]->(comidaPicante),
 (iv)-[:es]->(comidaPicante),
-(ix)-[:es]->(comidaPicante),
-
+(ix)-[:es]->(comidaPicante)
 
 create (hb)-[:es]->(mariscos),
 (hc)-[:es]->(mariscos),
@@ -2909,8 +2887,7 @@ create (hb)-[:es]->(mariscos),
 (cx)-[:es]->(mariscos),
 (cy)-[:es]->(mariscos),
 (dc)-[:es]->(mariscos),
-(dd)-[:es]->(mariscos)
-
+(dd)-[:es]->(mariscos),
 (dm)-[:es]->(mariscos),
 (dn)-[:es]->(mariscos),
 (do)-[:es]->(mariscos),
@@ -2926,10 +2903,7 @@ create (hb)-[:es]->(mariscos),
 (il)-[:es]->(mariscos),
 (io)-[:es]->(mariscos),
 (ip)-[:es]->(mariscos),
-(iq)-[:es]->(mariscos),
-
-
-
+(iq)-[:es]->(mariscos)
 
 create (gv)-[:es]->(comidaCasera),
 (gw)-[:es]->(comidaCasera),
@@ -2952,8 +2926,7 @@ create (gv)-[:es]->(comidaCasera),
 (be)-[:es]->(comidaCasera),
 (bf)-[:es]->(comidaCasera),
 (ch)-[:es]->(comidaCasera),
-(ci)-[:es]->(comidaCasera)
-
+(ci)-[:es]->(comidaCasera),
 (dg)-[:es]->(comidaCasera),
 (dh)-[:es]->(comidaCasera),
 (di)-[:es]->(comidaCasera),
@@ -2976,8 +2949,7 @@ create (gv)-[:es]->(comidaCasera),
 (it)-[:es]->(comidaCasera),
 (iu)-[:es]->(comidaCasera),
 (iv)-[:es]->(comidaCasera),
-(ix)-[:es]->(comidaCasera),
-
+(ix)-[:es]->(comidaCasera)
 
 create (gi)-[:es]->(comidaRapida),
 (gp)-[:es]->(comidaRapida),
@@ -3004,8 +2976,7 @@ create (gi)-[:es]->(comidaRapida),
 (cd)-[:es]->(comidaRapida),
 (ce)-[:es]->(comidaRapida),
 (cf)-[:es]->(comidaRapida),
-(cg)-[:es]->(comidaRapida)
-
+(cg)-[:es]->(comidaRapida),
 (dg)-[:es]->(comidaRapida),
 (dk)-[:es]->(comidaRapida),
 (dl)-[:es]->(comidaRapida),
@@ -3124,8 +3095,7 @@ create (gi)-[:es]->(lejos),
 (dc)-[:es]->(lejos),
 (dd)-[:es]->(lejos),
 (de)-[:es]->(lejos),
-(df)-[:es]->(lejos)
-
+(df)-[:es]->(lejos),
 (dg)-[:es]->(lejos),
 (dh)-[:es]->(lejos),
 (di)-[:es]->(lejos),
@@ -3168,8 +3138,7 @@ create (gi)-[:es]->(lejos),
 (it)-[:es]->(lejos),
 (iu)-[:es]->(lejos),
 (iv)-[:es]->(lejos),
-(ix)-[:es]->(lejos),
-
+(ix)-[:es]->(lejos)
 
 create (gm)-[:es]->(playa),
 (go)-[:es]->(playa),
@@ -3221,8 +3190,7 @@ create (gm)-[:es]->(playa),
 (db)-[:es]->(playa),
 (dc)-[:es]->(playa),
 (dd)-[:es]->(playa),
-(df)-[:es]->(playa)
-
+(df)-[:es]->(playa),
 (dh)-[:es]->(playa),
 (dj)-[:es]->(playa),
 (dn)-[:es]->(playa),
@@ -3249,8 +3217,7 @@ create (gm)-[:es]->(playa),
 (ir)-[:es]->(playa),
 (is)-[:es]->(playa),
 (iv)-[:es]->(playa),
-(ix)-[:es]->(playa),
-
+(ix)-[:es]->(playa)
 
 create (gf)-[:es]->(visa),
 (gg)-[:es]->(visa),
@@ -3277,8 +3244,7 @@ create (gf)-[:es]->(visa),
 (co)-[:es]->(visa),
 (cz)-[:es]->(visa),
 (da)-[:es]->(visa),
-(db)-[:es]->(visa)
-
+(db)-[:es]->(visa),
 (dg)-[:es]->(visa),
 (dh)-[:es]->(visa),
 (di)-[:es]->(visa),
@@ -3319,8 +3285,7 @@ create (gl)-[:es]->(compras),
 (bf)-[:es]->(compras),
 (bp)-[:es]->(compras),
 (ch)-[:es]->(compras),
-(ci)-[:es]->(compras)
-
+(ci)-[:es]->(compras),
 (dg)-[:es]->(compras),
 (dh)-[:es]->(compras),
 (di)-[:es]->(compras),
@@ -3346,9 +3311,7 @@ create (gl)-[:es]->(compras),
 (it)-[:es]->(compras),
 (iu)-[:es]->(compras),
 (iv)-[:es]->(compras),
-(ix)-[:es]->(compras),
-
-
+(ix)-[:es]->(compras)
 
 create (gk)-[:es]->(carne),
 (gl)-[:es]->(carne),
@@ -3407,8 +3370,7 @@ create (gk)-[:es]->(carne),
 (cs)-[:es]->(carne),
 (ct)-[:es]->(carne),
 (cx)-[:es]->(carne),
-(cy)-[:es]->(carne)
-
+(cy)-[:es]->(carne),
 (dg)-[:es]->(carne),
 (dh)-[:es]->(carne),
 (di)-[:es]->(carne),
@@ -3435,8 +3397,7 @@ create (gk)-[:es]->(carne),
 (it)-[:es]->(carne),
 (iu)-[:es]->(carne),
 (iv)-[:es]->(carne),
-(ix)-[:es]->(carne),
-
+(ix)-[:es]->(carne)
 
 create(gj)-[:es]->(comidaDiversa),
 (gl)-[:es]->(comidaDiversa),
@@ -3506,8 +3467,7 @@ create(gj)-[:es]->(comidaDiversa),
 (db)-[:es]->(comidaDiversa),
 (dc)-[:es]->(comidaDiversa),
 (dd)-[:es]->(comidaDiversa),
-(df)-[:es]->(comidaDiversa)
-
+(df)-[:es]->(comidaDiversa),
 (dg)-[:es]->(comidaDiversa),
 (dh)-[:es]->(comidaDiversa),
 (di)-[:es]->(comidaDiversa),
@@ -3534,8 +3494,7 @@ create(gj)-[:es]->(comidaDiversa),
 (it)-[:es]->(comidaDiversa),
 (iu)-[:es]->(comidaDiversa),
 (iv)-[:es]->(comidaDiversa),
-(ix)-[:es]->(comidaDiversa),
-
+(ix)-[:es]->(comidaDiversa)
 
 create (ga)-[:es]->(vidaNocturna),
 (bp)-[:es]->(vidaNocturna),
@@ -3552,8 +3511,7 @@ create (ga)-[:es]->(vidaNocturna),
 (gd)-[:es]->(vidaNocturna),
 (gr)-[:es]->(vidaNocturna),
 (hb)-[:es]->(vidaNocturna),
-(by)-[:es]->(vidaNocturna)
-
+(by)-[:es]->(vidaNocturna),
 (dk)-[:es]->(vidaNocturna),
 (dl)-[:es]->(vidaNocturna),
 (dm)-[:es]->(vidaNocturna),
@@ -3577,9 +3535,7 @@ create (ga)-[:es]->(vidaNocturna),
 (it)-[:es]->(vidaNocturna),
 (iu)-[:es]->(vidaNocturna),
 (iv)-[:es]->(vidaNocturna),
-(ix)-[:es]->(vidaNocturna),
-
-
+(ix)-[:es]->(vidaNocturna)
 
 create (gk)-[:es]->(crucero),
 (gm)-[:es]->(crucero),
@@ -3629,8 +3585,7 @@ create (gk)-[:es]->(crucero),
 (db)-[:es]->(crucero),
 (dc)-[:es]->(crucero),
 (dd)-[:es]->(crucero),
-(df)-[:es]->(crucero)
-
+(df)-[:es]->(crucero),
 (dh)-[:es]->(crucero),
 (dj)-[:es]->(crucero),
 (dn)-[:es]->(crucero),
@@ -3657,8 +3612,7 @@ create (gk)-[:es]->(crucero),
 (ir)-[:es]->(crucero),
 (is)-[:es]->(crucero),
 (iv)-[:es]->(crucero),
-(ix)-[:es]->(crucero),
-
+(ix)-[:es]->(crucero)
 
 create (gj)-[:es]->(parquesTematicos),
 (gk)-[:es]->(parquesTematicos),
@@ -3730,8 +3684,7 @@ create (gj)-[:es]->(parquesTematicos),
 (cu)-[:es]->(parquesTematicos),
 (cv)-[:es]->(parquesTematicos),
 (cx)-[:es]->(parquesTematicos),
-(db)-[:es]->(parquesTematicos)
-
+(db)-[:es]->(parquesTematicos),
 (dg)-[:es]->(parquesTematicos),
 (dk)-[:es]->(parquesTematicos),
 (dl)-[:es]->(parquesTematicos),
@@ -3755,8 +3708,7 @@ create (gj)-[:es]->(parquesTematicos),
 (it)-[:es]->(parquesTematicos),
 (iu)-[:es]->(parquesTematicos),
 (iv)-[:es]->(parquesTematicos),
-(ix)-[:es]->(parquesTematicos),
-
+(ix)-[:es]->(parquesTematicos)
 
 create (gi)-[:es]->(museos),
 (gj)-[:es]->(museos),
@@ -3848,8 +3800,7 @@ create (gi)-[:es]->(museos),
 (da)-[:es]->(museos),
 (db)-[:es]->(museos),
 (dd)-[:es]->(museos),
-(df)-[:es]->(museos)
-
+(df)-[:es]->(museos),
 (dg)-[:es]->(museos),
 (dl)-[:es]->(museos),
 (dm)-[:es]->(museos),
@@ -3872,7 +3823,11 @@ create (gi)-[:es]->(museos),
 (it)-[:es]->(museos),
 (iu)-[:es]->(museos),
 (iv)-[:es]->(museos),
-(ix)-[:es]->(museos),
+(ix)-[:es]->(museos)
+
+
+
+
 
 
 
@@ -3893,9 +3848,8 @@ create (ec)-[:es]->(calor),
 (fe)-[:es]->(calor),
 (fg)-[:es]->(calor),
 (fj)-[:es]->(calor),
-(fl)-[:es]->(calor)
-
-create (ea)-[:es]->(frio),
+(fl)-[:es]->(calor),
+(ea)-[:es]->(frio),
 (eb)-[:es]->(frio),
 (ed)-[:es]->(frio),
 (eg)-[:es]->(frio),
@@ -3907,7 +3861,19 @@ create (ea)-[:es]->(frio),
 (ey)-[:es]->(frio),
 (ez)-[:es]->(frio),
 (fc)-[:es]->(frio),
-(fn)-[:es]->(frio)
+(fn)-[:es]->(frio),
+(fo)-[:es]->(calor),
+(fp)-[:es]->(calor),
+(fq)-[:es]->(calor),
+(fr)-[:es]->(calor),
+(fs)-[:es]->(calor),
+(ft)-[:es]->(frio),
+(fu)-[:es]->(calor),
+(fv)-[:es]->(calor),
+(fw)-[:es]->(frio),
+(fx)-[:es]->(calor),
+(fy)-[:es]->(calor),
+(fz)-[:es]->(calor)
 
 create (ec)-[:es]->(familiar),
 (ef)-[:es]->(familiar),
@@ -3920,7 +3886,15 @@ create (ec)-[:es]->(familiar),
 (ez)-[:es]->(familiar),
 (fd)-[:es]->(familiar),
 (fk)-[:es]->(familiar),
-(fl)-[:es]->(familiar)
+(fl)-[:es]->(familiar),
+(fp)-[:es]->(familiar),
+(fq)-[:es]->(familiar),
+(fr)-[:es]->(familiar),
+(fs)-[:es]->(familiar),
+(ft)-[:es]->(familiar),
+(fu)-[:es]->(familiar),
+(fv)-[:es]->(familiar),
+(fw)-[:es]->(familiar)
 
 create (ec)-[:es]->(pareja),
 (ef)-[:es]->(pareja),
@@ -3934,7 +3908,15 @@ create (ec)-[:es]->(pareja),
 (ew)-[:es]->(pareja),
 (ex)-[:es]->(pareja),
 (fi)-[:es]->(pareja),
-(fk)-[:es]->(pareja)
+(fk)-[:es]->(pareja),
+(fo)-[:es]->(pareja),
+(fp)-[:es]->(pareja),
+(fq)-[:es]->(pareja),
+(fs)-[:es]->(pareja),
+(fu)-[:es]->(pareja),
+(fv)-[:es]->(pareja),
+(fy)-[:es]->(pareja),
+(fz)-[:es]->(pareja)
 
 create (ea)-[:es]->(individual),
 (ec)-[:es]->(individual),
@@ -3951,7 +3933,16 @@ create (ea)-[:es]->(individual),
 (fd)-[:es]->(individual),
 (fi)-[:es]->(individual),
 (fj)-[:es]->(individual),
-(fl)-[:es]->(individual)
+(fl)-[:es]->(individual),
+(fo)-[:es]->(individual),
+(fp)-[:es]->(individual),
+(fq)-[:es]->(individual),
+(fs)-[:es]->(individual),
+(fu)-[:es]->(individual),
+(fv)-[:es]->(individual),
+(fw)-[:es]->(individual),
+(fy)-[:es]->(individual),
+(fz)-[:es]->(individual)
 
 create (eb)-[:es]->(religioso),
 (ec)-[:es]->(religioso),
@@ -3964,7 +3955,17 @@ create (eb)-[:es]->(religioso),
 (fe)-[:es]->(religioso),
 (fk)-[:es]->(religioso),
 (fl)-[:es]->(religioso),
-(fm)-[:es]->(religioso)
+(fm)-[:es]->(religioso),
+(fo)-[:es]->(religioso),
+(fp)-[:es]->(religioso),
+(fq)-[:es]->(religioso),
+(fr)-[:es]->(religioso),
+(fs)-[:es]->(religioso),
+(ft)-[:es]->(religioso),
+(fu)-[:es]->(religioso),
+(fv)-[:es]->(religioso),
+(fy)-[:es]->(religioso),
+(fz)-[:es]->(religioso)
 
 create (ea)-[:es]->(cultural),
 (ei)-[:es]->(cultural),
@@ -3977,7 +3978,16 @@ create (ea)-[:es]->(cultural),
 (es)-[:es]->(cultural),
 (eu)-[:es]->(cultural),
 (ex)-[:es]->(cultural),
-(fl)-[:es]->(cultural)
+(fl)-[:es]->(cultural),
+(fo)-[:es]->(cultural),
+(fq)-[:es]->(cultural),
+(fr)-[:es]->(cultural),
+(ft)-[:es]->(cultural),
+(fu)-[:es]->(cultural),
+(fv)-[:es]->(cultural),
+(fw)-[:es]->(cultural),
+(fx)-[:es]->(cultural),
+(fy)-[:es]->(cultural)
 
 create (ea)-[:es]->(amigos),
 (ec)-[:es]->(amigos),
@@ -3997,7 +4007,18 @@ create (ea)-[:es]->(amigos),
 (fa)-[:es]->(amigos),
 (fd)-[:es]->(amigos),
 (fi)-[:es]->(amigos),
-(fl)-[:es]->(amigos)
+(fl)-[:es]->(amigos),
+(fo)-[:es]->(amigos),
+(fp)-[:es]->(amigos),
+(fq)-[:es]->(amigos),
+(fr)-[:es]->(amigos),
+(fs)-[:es]->(amigos),
+(fu)-[:es]->(amigos),
+(fv)-[:es]->(amigos),
+(fw)-[:es]->(amigos),
+(fx)-[:es]->(amigos),
+(fy)-[:es]->(amigos),
+(fz)-[:es]->(amigos)
 
 create (ea)-[:es]->(actividadesDeportivas),
 (eb)-[:es]->(actividadesDeportivas),
@@ -4013,7 +4034,14 @@ create (ea)-[:es]->(actividadesDeportivas),
 (et)-[:es]->(actividadesDeportivas),
 (ew)-[:es]->(actividadesDeportivas),
 (ex)-[:es]->(actividadesDeportivas),
-(ez)-[:es]->(actividadesDeportivas)
+(ez)-[:es]->(actividadesDeportivas),
+(fp)-[:es]->(actividadesDeportivas),
+(fq)-[:es]->(actividadesDeportivas),
+(fr)-[:es]->(actividadesDeportivas),
+(fv)-[:es]->(actividadesDeportivas),
+(fx)-[:es]->(actividadesDeportivas),
+(fy)-[:es]->(actividadesDeportivas),
+(fz)-[:es]->(actividadesDeportivas)
 
 create (ec)-[:es]->(caro),
 (ef)-[:es]->(caro),
@@ -4027,9 +4055,8 @@ create (ec)-[:es]->(caro),
 (fk)-[:es]->(caro),
 (ex)-[:es]->(caro),
 (ez)-[:es]->(caro),
-(fd)-[:es]->(caro)
-
-create (ea)-[:es]->(barato),
+(fd)-[:es]->(caro),
+(ea)-[:es]->(barato),
 (eb)-[:es]->(barato),
 (en)-[:es]->(barato),
 (eo)-[:es]->(barato),
@@ -4042,7 +4069,19 @@ create (ea)-[:es]->(barato),
 (fi)-[:es]->(barato),
 (fj)-[:es]->(barato),
 (fm)-[:es]->(barato),
-(fn)-[:es]->(barato)
+(fn)-[:es]->(barato),
+(fo)-[:es]->(caro),
+(fp)-[:es]->(caro),
+(fq)-[:es]->(barato),
+(fr)-[:es]->(caro),
+(fs)-[:es]->(barato),
+(ft)-[:es]->(barato),
+(fu)-[:es]->(barato),
+(fv)-[:es]->(caro),
+(fw)-[:es]->(caro),
+(fx)-[:es]->(caro),
+(fy)-[:es]->(caro),
+(fz)-[:es]->(caro)
 
 create (eb)-[:es]->(relajante),
 (ec)-[:es]->(relajante),
@@ -4056,7 +4095,16 @@ create (eb)-[:es]->(relajante),
 (ew)-[:es]->(relajante),
 (ex)-[:es]->(relajante),
 (fd)-[:es]->(relajante),
-(fj)-[:es]->(relajante)
+(fj)-[:es]->(relajante),
+(fo)-[:es]->(relajante),
+(fp)-[:es]->(relajante),
+(fq)-[:es]->(relajante),
+(fr)-[:es]->(relajante),
+(ft)-[:es]->(relajante),
+(fv)-[:es]->(relajante),
+(fw)-[:es]->(relajante),
+(fy)-[:es]->(relajante),
+(fz)-[:es]->(relajante)
 
 create (ea)-[:es]->(actividadesCulturales),
 (eb)-[:es]->(actividadesCulturales),
@@ -4071,7 +4119,15 @@ create (ea)-[:es]->(actividadesCulturales),
 (eu)-[:es]->(actividadesCulturales),
 (ew)-[:es]->(actividadesCulturales),
 (ex)-[:es]->(actividadesCulturales),
-(fl)-[:es]->(actividadesCulturales)
+(fl)-[:es]->(actividadesCulturales),
+(fp)-[:es]->(actividadesCulturales),
+(fq)-[:es]->(actividadesCulturales),
+(fr)-[:es]->(actividadesCulturales),
+(fs)-[:es]->(actividadesCulturales),
+(ft)-[:es]->(actividadesCulturales),
+(fv)-[:es]->(actividadesCulturales),
+(fw)-[:es]->(actividadesCulturales),
+(fz)-[:es]->(actividadesCulturales)
 
 create(eh)-[:es]->(comidaPicante),
 (ei)-[:es]->(comidaPicante),
@@ -4086,8 +4142,13 @@ create(eh)-[:es]->(comidaPicante),
 (fh)-[:es]->(comidaPicante),
 (fi)-[:es]->(comidaPicante),
 (fk)-[:es]->(comidaPicante),
-(fn)-[:es]->(comidaPicante)
-
+(fn)-[:es]->(comidaPicante),
+(fo)-[:es]->(comidaPicante),
+(fq)-[:es]->(comidaPicante),
+(fs)-[:es]->(comidaPicante),
+(fu)-[:es]->(comidaPicante),
+(fv)-[:es]->(comidaPicante),
+(fy)-[:es]->(comidaPicante)
 
 create (eh)-[:es]->(mariscos),
 (ek)-[:es]->(mariscos),
@@ -4096,9 +4157,14 @@ create (eh)-[:es]->(mariscos),
 (eu)-[:es]->(mariscos),
 (ew)-[:es]->(mariscos),
 (fk)-[:es]->(mariscos),
-(fm)-[:es]->(mariscos)
-
-
+(fm)-[:es]->(mariscos),
+(fo)-[:es]->(mariscos),
+(fp)-[:es]->(mariscos),
+(fq)-[:es]->(mariscos),
+(fr)-[:es]->(mariscos),
+(fv)-[:es]->(mariscos),
+(fy)-[:es]->(mariscos),
+(fz)-[:es]->(mariscos)
 
 create (ei)-[:es]->(comidaCasera),
 (ek)-[:es]->(comidaCasera),
@@ -4107,8 +4173,16 @@ create (ei)-[:es]->(comidaCasera),
 (en)-[:es]->(comidaCasera),
 (eq)-[:es]->(comidaCasera),
 (es)-[:es]->(comidaCasera),
-(fe)-[:es]->(comidaCasera)
-
+(fe)-[:es]->(comidaCasera),
+(fp)-[:es]->(comidaCasera),
+(fr)-[:es]->(comidaCasera),
+(fs)-[:es]->(comidaCasera),
+(ft)-[:es]->(comidaCasera),
+(fu)-[:es]->(comidaCasera),
+(fv)-[:es]->(comidaCasera),
+(fw)-[:es]->(comidaCasera),
+(fy)-[:es]->(comidaCasera),
+(fz)-[:es]->(comidaCasera)
 
 create (ea)-[:es]->(comidaRapida),
 (eb)-[:es]->(comidaRapida),
@@ -4120,8 +4194,13 @@ create (ea)-[:es]->(comidaRapida),
 (el)-[:es]->(comidaRapida),
 (eq)-[:es]->(comidaRapida),
 (es)-[:es]->(comidaRapida),
-(ex)-[:es]->(comidaRapida)
-
+(ex)-[:es]->(comidaRapida),
+(fo)-[:es]->(comidaRapida),
+(fp)-[:es]->(comidaRapida),
+(fq)-[:es]->(comidaRapida),
+(fr)-[:es]->(comidaRapida),
+(fs)-[:es]->(comidaRapida),
+(fx)-[:es]->(comidaRapida)
 
 create (eb)-[:es]->(carne),
 (ec)-[:es]->(carne),
@@ -4138,7 +4217,13 @@ create (eb)-[:es]->(carne),
 (ew)-[:es]->(carne),
 (ex)-[:es]->(carne),
 (fc)-[:es]->(carne),
-(fi)-[:es]->(carne)
+(fi)-[:es]->(carne),
+(fo)-[:es]->(carne),
+(fp)-[:es]->(carne),
+(fq)-[:es]->(carne),
+(fv)-[:es]->(carne),
+(fx)-[:es]->(carne),
+(fy)-[:es]->(carne)
 
 create (ea)-[:es]->(playa),
 (eb)-[:es]->(playa),
@@ -4174,8 +4259,19 @@ create (ea)-[:es]->(playa),
 (fk)-[:es]->(playa),
 (fl)-[:es]->(playa),
 (fm)-[:es]->(playa),
-(fn)-[:es]->(playa)
-
+(fn)-[:es]->(playa),
+(fo)-[:es]->(playa),
+(fp)-[:es]->(playa),
+(fq)-[:es]->(playa),
+(fr)-[:es]->(playa),
+(fs)-[:es]->(playa),
+(ft)-[:es]->(playa),
+(fu)-[:es]->(playa),
+(fv)-[:es]->(playa),
+(fw)-[:es]->(playa),
+(fx)-[:es]->(playa),
+(fy)-[:es]->(playa),
+(fz)-[:es]->(playa)
 
 create (ec)-[:es]->(visa),
 (eg)-[:es]->(visa),
@@ -4187,8 +4283,12 @@ create (ec)-[:es]->(visa),
 (fb)-[:es]->(visa),
 (fl)-[:es]->(visa),
 (fm)-[:es]->(visa),
-(fn)-[:es]->(visa)
-
+(fn)-[:es]->(visa),
+(fo)-[:es]->(visa),
+(fs)-[:es]->(visa),
+(fu)-[:es]->(visa),
+(fv)-[:es]->(visa),
+(fy)-[:es]->(visa)
 
 create (eb)-[:es]->(compras),
 (ef)-[:es]->(compras),
@@ -4197,7 +4297,13 @@ create (eb)-[:es]->(compras),
 (el)-[:es]->(compras),
 (eq)-[:es]->(compras),
 (fe)-[:es]->(compras),
-(fj)-[:es]->(compras)
+(fj)-[:es]->(compras),
+(fo)-[:es]->(compras),
+(fp)-[:es]->(compras),
+(fq)-[:es]->(compras),
+(fs)-[:es]->(compras),
+(fu)-[:es]->(compras),
+(fv)-[:es]->(compras)
 
 create (ek)-[:es]->(comidaDiversa),
 (el)-[:es]->(comidaDiversa),
@@ -4207,7 +4313,14 @@ create (ek)-[:es]->(comidaDiversa),
 (es)-[:es]->(comidaDiversa),
 (eu)-[:es]->(comidaDiversa),
 (fe)-[:es]->(comidaDiversa),
-(fk)-[:es]->(comidaDiversa)
+(fk)-[:es]->(comidaDiversa),
+(fo)-[:es]->(comidaDiversa),
+(fq)-[:es]->(comidaDiversa),
+(fr)-[:es]->(comidaDiversa),
+(fs)-[:es]->(comidaDiversa),
+(fu)-[:es]->(comidaDiversa),
+(fy)-[:es]->(comidaDiversa),
+(fz)-[:es]->(comidaDiversa)
 
 
 create (ea)-[:es]->(vidaNocturna),
@@ -4220,7 +4333,17 @@ create (ea)-[:es]->(vidaNocturna),
 (es)-[:es]->(vidaNocturna),
 (ex)-[:es]->(vidaNocturna),
 (fb)-[:es]->(vidaNocturna),
-(fe)-[:es]->(vidaNocturna)
+(fe)-[:es]->(vidaNocturna),
+(fo)-[:es]->(vidaNocturna),
+(fp)-[:es]->(vidaNocturna),
+(fq)-[:es]->(vidaNocturna),
+(fr)-[:es]->(vidaNocturna),
+(fs)-[:es]->(vidaNocturna),
+(fu)-[:es]->(vidaNocturna),
+(fv)-[:es]->(vidaNocturna),
+(fw)-[:es]->(vidaNocturna),
+(fy)-[:es]->(vidaNocturna),
+(fz)-[:es]->(vidaNocturna)
 
 create (ea)-[:es]->(crucero),
 (eb)-[:es]->(crucero),
@@ -4256,7 +4379,19 @@ create (ea)-[:es]->(crucero),
 (fk)-[:es]->(crucero),
 (fl)-[:es]->(crucero),
 (fm)-[:es]->(crucero),
-(fn)-[:es]->(crucero)
+(fn)-[:es]->(crucero),
+(fo)-[:es]->(crucero),
+(fp)-[:es]->(crucero),
+(fq)-[:es]->(crucero),
+(fr)-[:es]->(crucero),
+(fs)-[:es]->(crucero),
+(ft)-[:es]->(crucero),
+(fu)-[:es]->(crucero),
+(fv)-[:es]->(crucero),
+(fw)-[:es]->(crucero),
+(fx)-[:es]->(crucero),
+(fy)-[:es]->(crucero),
+(fz)-[:es]->(crucero)
 
 
 create (ea)-[:es]->(parquesTematicos),
@@ -4269,7 +4404,16 @@ create (ea)-[:es]->(parquesTematicos),
 (ex)-[:es]->(parquesTematicos),
 (fc)-[:es]->(parquesTematicos),
 (fj)-[:es]->(parquesTematicos),
-(fk)-[:es]->(parquesTematicos)
+(fk)-[:es]->(parquesTematicos),
+(fo)-[:es]->(parquesTematicos),
+(fp)-[:es]->(parquesTematicos),
+(fq)-[:es]->(parquesTematicos),
+(fr)-[:es]->(parquesTematicos),
+(fs)-[:es]->(parquesTematicos),
+(ft)-[:es]->(parquesTematicos),
+(fv)-[:es]->(parquesTematicos),
+(fy)-[:es]->(parquesTematicos),
+(fz)-[:es]->(parquesTematicos)
 
 create (ea)-[:es]->(museos),
 (ee)-[:es]->(museos),
@@ -4290,4 +4434,16 @@ create (ea)-[:es]->(museos),
 (fh)-[:es]->(museos),
 (fl)-[:es]->(museos),
 (fm)-[:es]->(museos),
-(fn)-[:es]->(museos)
+(fn)-[:es]->(museos),
+(fo)-[:es]->(museos),
+(fp)-[:es]->(museos),
+(fq)-[:es]->(museos),
+(fr)-[:es]->(museos),
+(fs)-[:es]->(museos),
+(ft)-[:es]->(museos),
+(fu)-[:es]->(museos),
+(fv)-[:es]->(museos),
+(fw)-[:es]->(museos),
+(fx)-[:es]->(museos),
+(fy)-[:es]->(museos),
+(fz)-[:es]->(museos)
