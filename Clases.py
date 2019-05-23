@@ -3,6 +3,7 @@
 #Marco Fuentes - 7 de mayo de 2019
 
 from py2neo.ogm import *
+from py2neo import *
 
 class Persona(GraphObject):
 	__primarykey__ = "nombre"
@@ -11,37 +12,40 @@ class Persona(GraphObject):
 
 	amigos = Related("Persona","amigos")
 	likes = Related ("Atributo","likes")
-	yaVisito = Related ("Ciudad","visitado")
-	yaVisitoP = Related ("Pais","visitado")
+	yaVisito = Related ("Ciudad","yaVisito")
+	yaVisitoP = Related ("Pais","yaVisitoP")
 
 
 class Ciudad (GraphObject):
 	__primarykey__ = "nombre"
-
 	nombre = Property()
-	foto = Property()
-	distancia = Property()
-	contador = 0
+	def __init__ (self):
+		self.contador = 0
 
 	def agregarC(self,numero):
-		n = int(numero)
-		self.contador = self.contador + n
+		self.contador = contador + int(numero)
+
+class Pais (GraphObject):
+	__primarykey__ = "nombre"
+	nombre = Property()
+
+	def __init__(self):
+		self.contador = 0
+
+	def agregarC(self,numero):
+		self.contador = self.contador + int(numero)
 
 class Atributo(GraphObject):
 	__primarykey__ = "cualidad"
 
 	cualidad = Property()
-	#Lo pongo dos veces todo para que el recorrido sea bidireccional
 	es = Related("Ciudad","es")
+	esP = Related("Pais","esP")
 
+class Lugar(object):
+	def __init__(self, nombre):
+		self.nombre = nombre
+		self.contador = 0
 
-class Pais (GraphObject):
-	__primarykey__ = "nombre"
-
-	nombre = Property()
-	distancia = Property()
-	contador = 0
-
-	def agregarC(self,numero):
-		n = int(numero)
-		self.contador = self.contador + n
+	def sumar(self,numero):
+		self.contador  = self.contador + numero
