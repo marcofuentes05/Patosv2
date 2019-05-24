@@ -29,8 +29,23 @@ def estaEnLista(lista,nombre):
 	return -1
 
 #La libreria reconoce el grafo de Neo4j, pero debemos especificarle la contraseña
+#-------------------------------------------------------
+# EN LA LINEA DE ABAJO SE PONE LA CONTRASEÑA DE LA BASE DE DATOS
 graph = Graph (password = "patos123")
-
+"""                             ^
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+--------------------------------
+"""
+# EN LA LINEA DE ARRIBA SE PONE LA CONTRASEÑA DE LA BASE DE DATOS
+#-------------------------------------------------------
 string = """
  /$$$$$$$$ /$$$$$$$  /$$$$$$ /$$    /$$  /$$$$$$   /$$$$$$   /$$$$$$
 |__  $$__/| $$__  $$|_  $$_/| $$   | $$ /$$__  $$ /$$__  $$ /$$__  $$
